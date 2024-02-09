@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel Booking Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>Travel Booking Form</h1>
+
+  <form id="bookingForm">
+    <fieldset>
+      <legend>Destination Details</legend>
+      <label for="gym">City:</label>
+      <input type="text" id="city" name="city" required>
+      <label >Travel Dates:</label>
+      <input type="date" id="travelDates" name="travelDates" required>
+    </fieldset>
+
+    <fieldset>
+      <legend>Accommodation Preferences</legend>
+      <label for="hotelType"> Hotel Type:</label>
+      <select id="hotelType"  required>
+        <option value="budget">Budget Hotel</option>
+        <option value="midrange">Mid-range Hotel</option>
+        <option value="luxury">Luxury Hotel</option>
+      </select>
+      <label >Amenities (choose all that apply):</label>
+      <br>
+      <label  >
+        <input type="checkbox" id="pool" name="amenities[]" value="pool">
+        Swimming Pool
+      </label>
+      <label >
+        <input type="checkbox" id="gym" name="amenities[]" value="gym">
+        Fitness Center
+      </label>
+      <label >
+        <input type="checkbox" id="spa" name="amenities[]" value="spa">
+        Spa Services
+      </label>
+      <label for="wifi">
+        <input type="checkbox" id="wifi" name="amenities[]" value="wifi">
+        Free Wi-Fi
+      </label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Additional Preferences</legend>
+      <label for="activities">Travel Activities (choose one option):</label>
+      <br>
+      <label for="sightseeing">
+        <input type="radio" id="sightseeing" name="activities[]" value="sightseeing">
+        Sightseeing Tours
+      </label>
+      <label for="hiking">
+        <input type="radio" id="hiking" name="activities[]" value="hiking">
+        Hiking and Adventure
+      </label>
+      <label for="beaches">
+        <input type="radio" id="beaches" name="activities[]" value="beaches">
+        Relaxing on Beaches
+      </label>
+      <label for="shopping">
+        <input type="radio" id="shopping" name="activities[]" value="shopping">
+        Shopping and Dining
+      </label>
+    </fieldset>
+
+    <button type="submit">Find My Perfect Trip!</button>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>
