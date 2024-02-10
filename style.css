@@ -30,14 +30,6 @@ select {
   margin-bottom: 10px;
 }
 
-input[type="text"]:focus,
-input[type="date"]:focus,
-select:focus {
-  outline: none;
-  border-color: #007bff;
-  box-shadow: 0 0 5px #007bff;
-}
-
 input[type="checkbox"],
 input[type="radio"] {
   margin-right: 10px;
