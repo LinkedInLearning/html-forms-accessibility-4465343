@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Invoice App Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>Invoice App</h1>
+  <form action="#" method="post">
+    <div class="form-group">
+      <label for="clientName">Client Name</label>
+      <input type="text" id="clientName" name="clientName" placeholder="Enter client's name" required>
+    </div>
+    <div class="form-group">
+      <label for="invoiceNumber">Invoice Number</label>
+      <input type="text" id="invoiceNumber" name="invoiceNumber" placeholder="Enter invoice number" required>
+    </div>
+    <div class="form-group">
+      <label for="invoiceDate">Invoice Date</label>
+      <input type="date" id="invoiceDate" name="invoiceDate" required>
+    </div>
+    <div class="form-group">
+      <label for="amount">Amount</label>
+      <input type="number" id="amount" name="amount" placeholder="Enter amount" required>
+    </div>
+    <div class="form-group">
+      <label for="description">Description</label>
+      <textarea id="description" name="description" placeholder="Enter description" required></textarea>
+    </div>
+    <button type="submit">Submit</button>
+  </form>
+</body>
+
+</html>
