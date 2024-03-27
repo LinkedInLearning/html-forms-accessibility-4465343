@@ -1,6 +1,11 @@
 # HTML Forms: Accessibility
 This is the repository for the LinkedIn Learning course `HTML Forms: Accessibility`. The full course is available from [LinkedIn Learning][lil-course-url].
 
+![lil-thumbnail-url]
+
+Web developers have a tremendous responsibility to ensure that their products are inclusive and accessible to everyone. Forms are one of the most common and important elements of web applications, as they allow users to interact with the system, provide feedback, submit data, and perform various tasks. However, forms can also pose many challenges and barriers for users with disabilities, and if not designed and coded properly, they can prevent users from accessing the information and services they need.</p><p>
+In this course, software engineer Ifeoma Nwosu shows you how to create accessible forms that follow the best practices and standards of web accessibility. Learn how to improve form accessibility with form controls. Discover ways to help users input data into forms, including various input types like checkboxes, radio buttons, and text. Finally learn how to manage data entry errors and how to help users avoid putting the wrong data into form fields.
+
 _See the readme file in the main branch for updated instructions and information._
 ## Instructions
 This repository has branches for each of the videos in the course. You can use the branch pop up menu in github to switch to a specific branch and take a look at the course at that stage, or you can add `/tree/BRANCH_NAME` to the URL to go to the branch you want to access.
@@ -20,15 +25,18 @@ To resolve this issue:
     Add changes to git using this command: git add .
 	Commit changes using this command: git commit -m "some message"
 
-## Installing
-1. To use these exercise files, you must have the following installed:
-	- [list of requirements for course]
-2. Clone this repository into your local machine using the terminal (Mac), CMD (Windows), or a GUI tool like SourceTree.
-3. [Course-specific instructions]
+ ### Instructor
+
+Ifeoma Nwosu
+
+Software Engineer
+                           
+
+Check out my other courses on [LinkedIn Learning](https://www.linkedin.com/learning/instructors/ifeoma-nwosu?u=104).
 
 
 [0]: # (Replace these placeholder URLs with actual course URLs)
 
-[lil-course-url]: https://www.linkedin.com/learning/
-[lil-thumbnail-url]: http://
+[lil-course-url]: https://www.linkedin.com/learning/html-forms-accessibility
+[lil-thumbnail-url]: https://media.licdn.com/dms/image/D560DAQHXPotL4VZwdQ/learning-public-crop_675_1200/0/1711408278458?e=2147483647&v=beta&t=IfWYpAUHzVE5QK9umqbdZjXg31TSJLvLoGiLh8PWBJI
 
